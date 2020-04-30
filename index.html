@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <header>Pegue Pague</header>
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Pegue Pague</title>
+  
+  </head>
+  <body>
+
+    <!--Uso de Breadcrumb-->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+          <li class="breadcrumb-item"><a href="#">Promoção</a></li>
+          <li class="breadcrumb-item"><a href="#">Carrinho</a></li>
+          <li class="breadcrumb-item"><a href="#">Ajuda</a></li>
+        </ol>
+      </nav>
+    
+    <!--Uso de Carrossel-->
+    <div class="container">
+      <div class="row">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/carrossel/banner-razr.png" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/carrossel/banner-google-nest.png" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/carrossel/banner-hd.png" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+      </div>
+    </div>
+    
+    <!-- Uso de Cards -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 m-b-3 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/smartphone-android.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Smartphone Android</h5>
+            <p class="card-text">Vários modelos. Venha conferir!</p>
+            <a href="#" class="btn btn-primary">Visitar</a>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 m-b-3 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/notebook-linux.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Notbook Linux</h5>
+            <p class="card-text">Vários modelos. Venha conferir!</p>
+            <a href="#" class="btn btn-primary">Visitar</a>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 m-b-3 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/mouse-sete-botoes.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Mouse 7 Botões</h5>
+            <p class="card-text">Vários modelos. Venha conferir!</p>
+            <a href="#" class="btn btn-primary">Visitar</a>
+          </div>
+          </div>  
+        </div>
+      </div>
+      <br/>
+    <!--Uso de Paginação-->
+    <div class="container">        
+          <nav aria-label="Navegação de página exemplo" class="row">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+              <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+            </ul>
+          </nav>
+
+    </div>
+
+    <!--Uso de Forms-->
+    <div class="container">
+    <h3>Cadastre-se para receber novidades!</h3>
+      <div class="row">
+        <form>
+          <div class="form-group row">
+            <label for="inputNome" class="col-sm-2 col-form-label">Nome</label>
+            <div class="col-sm-10">
+              <input type="nome" class="form-control" id="inputNome" placeholder="Nome">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputCpf" class="col-sm-2 col-form-label">CPF</label>
+            <div class="col-sm-10">
+              <input type="cpf" class="form-control" id="inputCpf" placeholder="CPF">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputEndereco" class="col-sm-4 col-md-3 col-form-label">Endereço</label>
+            <div class="col-sm-10 col-md-9">
+              <input type="endereco" class="form-control" id="inputEndereco" placeholder="Endereço">
+            </div>
+          </div>
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Feminino
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Masculino
+                  </label>
+                </div>
+                
+              </div>
+            </div>
+          </fieldset>
+          
+          <div class="form-group row">
+            <label for="inputEstado" class="col-md-2 control-label">Estado</label>
+            <div class="col-md-10">
+               <select  class="form-control"  id="inputEstado" placeholder="Estado">
+                  <option value="0"></option>
+                  <option value="1">Acre</option>
+                  <option value="1">Alagoas</option>
+                  <option value="2">Amapá</option>
+                  <option value="2">Amazonas </option>
+                  <option value="2">Bahia</option>
+                  <option value="2">Ceará</option>
+                  <option value="2">Distrito Federal</option>
+                  <option value="2">Espirito Santo</option>
+                  <option value="2">Goiás</option>
+                  <option value="2">Maranhão</option>
+                  <option value="2">Mota Grosso</option>
+                  <option value="2">Mato Grosso do Sul</option>
+                  <option value="2">Minas Gerais</option>
+                  <option value="2">Pará</option>
+                  <option value="2">Paraíba</option>
+                  <option value="2">Paraná</option>
+                  <option value="2">Pernambuco</option>
+                  <option value="2">Piauí</option>
+                  <option value="2">Rio de Janeiro</option>
+                  <option value="2">Rio Grande do Norte</option>
+                  <option value="2">Rio Grande do Sul</option>
+                  <option value="2">Rondônia</option>
+                  <option value="2">Roraima</option>
+                  <option value="2">Santa Catarina</option>
+                  <option value="2">São Paulo</option>  
+                  <option value="2">Sergipe</option>
+                  <option value="2">Tocantins</option>
+                </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+          </div>
+
+          <!--Esse alerta somente será válido com JS-->
+          <div class="alert alert-success" role="alert">
+            Cadastro realizado com sucesso! 
+          </div>
+
+          <div class="alert alert-warning" role="alert">
+            Verifique seu e-mail para validação.
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
